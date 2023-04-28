@@ -2,13 +2,13 @@
 #include "lists.h"
 
 /**
- * print_list - prints all the elements
- * @h: pointer to the list_t
- * Return: the number of nodes printed
+ * print_list - cette fonction print les elemnents de la single list
+ * @h: cet le pointeur de la list
+ * Return: lr retere est le nombre des nodes dans la list
  */
 size_t print_list(const list_t *h)
 {
-	size_t n = 0;
+	int n = 0;
 
 	while (h)
 	{
