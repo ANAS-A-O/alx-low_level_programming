@@ -3,7 +3,7 @@
 void first_before_main(void) __attribute__ ((constructor));
 
 /**
-* first_before_main - prints a sentence before the main
+* first_before_main - cette fonction est exucute avant main
 * function is executed
 */
 void first_before_main(void)
