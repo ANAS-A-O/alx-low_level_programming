@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include "lists.h"
-
 /**
- * list_len - returns the number of elements
- * @h: pointer to the list
- * Return: number of elements
+ * list_len - cette fonction print le nombre des nodes dans une list donnée
+ * @h: c'est le pointeur de la list
+ * Return: le nombre des node dans la list
  */
 size_t list_len(const list_t *h)
 {
-	size_t lenght = 0;
+	int lenght = 0;
 
 	while (h)
 	{
